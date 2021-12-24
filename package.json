@@ -1,6 +1,6 @@
 {
   "name": "@nighty-78/djs-commands",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "Ferotiq's command handler with a few tweaks...",
   "main": "index.js",
 	"publishConfig": {
