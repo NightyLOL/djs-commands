@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nighty-78/djs-commands.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nighty-78/djs-commands/issues"
+  },
+  "homepage": "https://github.com/Nighty-78/djs-commands#readme"
 }
