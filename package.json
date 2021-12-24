@@ -1,0 +1,15 @@
+{
+  "name": "@nighty-78/djs-commands",
+  "version": "1.0.0-beta.0",
+  "description": "Ferotiq's command handler with a few tweaks...",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "nighty-78",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
+}
