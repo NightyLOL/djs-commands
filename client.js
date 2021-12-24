@@ -25,7 +25,7 @@ class Client extends Discord.Client {
 		/**
      * @type {TextCommand[]}
      */
-		const allCommands = commandFiles.map(file => require(`${reqPath.cmd}/${file}`));
+		const allCommands = commandFiles.map(file => require(`../../.${reqPath.cmd}/${file}`));
 
 		for (let i = 0; i < allCommands.length; i++) {
 			log("Registered Command: " + allCommands[i].name);
@@ -62,7 +62,7 @@ class Client extends Discord.Client {
 			/**
        * @type {Event}
        */
-			const events = require(`${reqPath.event}/${allEventFiles[i]}`);
+			const events = require(`../../.${reqPath.event}/${allEventFiles[i]}`);
 			
 			log("Registered event: " + events.event);
 			this.on(events.event, events.run.bind(null, this));
